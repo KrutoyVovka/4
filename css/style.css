@@ -47,7 +47,7 @@ section div > .text {
 .image-block__img {
 } */
 .image-block__title {
-	color: #999999;
+	color: #36d16d;
 	font-size: 16px;
 	text-align: center;
 	font-style: italic;
@@ -79,8 +79,8 @@ section div > .text {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 26px;
-	letter-spacing: 2px;
-	word-spacing: 4px;
+	letter-spacing: 10px;
+	word-spacing: 10px;
 	text-transform: uppercase;
 }
 .header__sublitle {
@@ -99,26 +99,47 @@ main section h2 {
 /***  СЕКЦИЯ  START  */
 /* .start {
 }
-/* .start__text {
+*/
+.start__text {
+	text-align: justify;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 2;
+	color: blue;
+	letter-spacing: 2px;
+	font-style: oblique;
 }
-.block-text {
+/*.block-text {
 }
 .block-text__text {
-} */
+}*/
 /***   СЕКЦИЯ  STARTUP  */
-/* .startup {
+/* .startup {}
+.startup__title {}
+.startup__text {} 
+*/
+.startup__text p {
+	text-align: justify;
+	text-transform: uppercase;
+	font-size: 18px;
+	line-height: 2;
+	color: darkorange;
+	font-weight: 700;
 }
-.startup__title {
-} */
-/* .startup__text {
-} */
 /***   СЕКЦИЯ  POLE  */
 /* .pole {
 }
 .pole__title {
 }*/
 .pole__text {
-	text-align: justify;
+	text-align: center;
+	text-transform: lowercase;
+	font-size: 18px;
+	line-height: 1.3;
+}
+.pole__text .text {
+	color: teal;
+	text-shadow: -1px -1px 1px #abeeaf;
 }
 /***   СЕКЦИЯ  WORK  */
 /* .work {
@@ -132,9 +153,12 @@ main section h2 {
 /* .watchman {
 }
 .watchman__title {
-}
+}*/
 .watchman__text {
-} */
+	text-decoration: overline;
+	font-size: 12px;
+	color: burlywood;
+}
 /***   СЕКЦИЯ  HARVESTING  */
 /* .harvesting {
 }
@@ -149,23 +173,38 @@ main section h2 {
 }
 .truckers__text {
 } */
+.truckers__text {
+	text-indent: 50px;
+	text-align: justify;
+	text-shadow: 2px 2px 1px #000;
+	color: yellow;
+}
 /***   СЕКЦИЯ  FINISH  */
-/* .finish {
+/* .finish {11
 }
 .finish__title {
 }
 .finish__text {
+}*/
+.finish__text p.text {
+	color: cyan;
+	text-decoration: underline;
+	font-size: 12px;
+	line-height: 1;
 }
- */
+
 /***   СЕКЦИЯ  CONCLUSIONS  */
 /* .conclusions {
 }
 .conclusions__title {
 }
-.conclusions__text {
+.conclusions__text {}
+*/
+.conclusions__text .text {
+	color: #5edb47;
 }
- */
-/***  CONCLUSIONS  CHECK-LIST  */
+
+/***  СЕКЦИЯ  CHECK-LIST  */
 .chek-list {
 	padding: 0px 15px;
 }
@@ -190,19 +229,26 @@ main section h2 {
 	padding: 0px 0px 0px 10px;
 }
 /*** FOOTER */
-/* .footer {
+/* .footer{} */
+.footer p {
+	font-size: 20px;
+	color: rebeccapurple;
 }
-.footer__text {
+/*.footer__text {
 }
 .footer__list {
-}
-.footer-list {
 }
 .list-u__link {
 } */
 .footer-list__item {
 	padding: 0px 0px 0px 10px;
+	text-transform: uppercase;
+	text-indent: 25px;
+}
+.footer-list__item a {
+	color: turquoise;
 }
 footer > p > span {
 	text-decoration: underline;
+	letter-spacing: 10px;
 }
