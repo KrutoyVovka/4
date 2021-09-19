@@ -1,0 +1,208 @@
+@import url("null.css");
+/* ? ----------- FONTS ---------- */
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700;display=swap;subset=cyrillic-ext");
+@font-face {
+	font-family: "TT Norms";
+	src: url("../fonts/../fonts/TTNorms-Regular.woff2") format("woff2"),
+		url("../fonts/TTNorms-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "TT Norms";
+	src: url("../fonts/TTNorms-Bold.woff2") format("woff2"),
+		url("../fonts/TTNorms-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+/* ! -------- GENERAL STYLES -------- */
+body {
+	line-height: 1.7;
+}
+.text {
+	padding: 0px 10px;
+	color: #333;
+}
+.text__bold {
+	font-weight: 700;
+}
+.text_border {
+	margin: 0px 0px 0px 20px;
+	padding: 0px 0px 0px 10px;
+	border-left: 3px red solid;
+}
+.block-title {
+	font-size: 26px;
+	line-height: 26px;
+	font-weight: 700;
+	padding: 0px 20px;
+}
+section div > .text {
+	text-indent: 10px;
+}
+/*.image-block {
+}
+.image-block__img {
+} */
+.image-block__title {
+	color: #999999;
+	font-size: 16px;
+	text-align: center;
+	font-style: italic;
+	text-transform: capitalize;
+}
+/* ** -------- HEADER --------- */
+.header {
+	background: url("../img/header.jpg") 0 0 no-repeat;
+	color: #fff;
+	padding: 200px 15px;
+	box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.5) inset;
+}
+/* .header-menu {
+} */
+.header-menu__list {
+	font-family: "TT Norms", sans-serif;
+}
+.header-menu__link {
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+	text-decoration: underline;
+}
+.header-menu__link_text {
+}
+.header__block {
+}
+.header__title {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 26px;
+	letter-spacing: 2px;
+	word-spacing: 4px;
+	text-transform: uppercase;
+}
+.header__sublitle {
+	font-size: 16px;
+	line-height: 20px;
+}
+header div > p {
+	text-transform: lowercase;
+}
+/* ** ----- MAIN ------ */
+.content {
+}
+main section h2 {
+	text-shadow: 1px 2px 3px #000;
+}
+/***  СЕКЦИЯ  START  */
+/* .start {
+}
+/* .start__text {
+}
+.block-text {
+}
+.block-text__text {
+} */
+/***   СЕКЦИЯ  STARTUP  */
+/* .startup {
+}
+.startup__title {
+} */
+/* .startup__text {
+} */
+/***   СЕКЦИЯ  POLE  */
+/* .pole {
+}
+.pole__title {
+}*/
+.pole__text {
+	text-align: justify;
+}
+/***   СЕКЦИЯ  WORK  */
+/* .work {
+}
+.work__title {
+}*/
+.work__text {
+	text-align: right;
+}
+/***   СЕКЦИЯ  WATCHMAN  */
+/* .watchman {
+}
+.watchman__title {
+}
+.watchman__text {
+} */
+/***   СЕКЦИЯ  HARVESTING  */
+/* .harvesting {
+}
+.harvesting__title {
+}
+.harvesting__text {
+} */
+/***   СЕКЦИЯ  TRUCKERS  */
+/* .truckers {
+}
+.truckers__title {
+}
+.truckers__text {
+} */
+/***   СЕКЦИЯ  FINISH  */
+/* .finish {
+}
+.finish__title {
+}
+.finish__text {
+}
+ */
+/***   СЕКЦИЯ  CONCLUSIONS  */
+/* .conclusions {
+}
+.conclusions__title {
+}
+.conclusions__text {
+}
+ */
+/***  CONCLUSIONS  CHECK-LIST  */
+.chek-list {
+	padding: 0px 15px;
+}
+/* .chek-list__title {
+}
+.chek-list__list {
+}
+*/
+.list-o__item {
+	list-style: decimal;
+	list-style-position: inside;
+}
+.list-o__item_line {
+	text-decoration: line-through;
+}
+/* .text__bold {
+} */
+.list-u {
+	position: relative;
+}
+.list-u__item {
+	padding: 0px 0px 0px 10px;
+}
+/*** FOOTER */
+/* .footer {
+}
+.footer__text {
+}
+.footer__list {
+}
+.footer-list {
+}
+.list-u__link {
+} */
+.footer-list__item {
+	padding: 0px 0px 0px 10px;
+}
+footer > p > span {
+	text-decoration: underline;
+}
